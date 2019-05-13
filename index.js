@@ -4,15 +4,9 @@ module.exports = {
     "es6": true,
     "node": true
   },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
-  },
   "plugins": [ "fp" ],
   "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
+    "eslint:recommended"
   ],
   "globals": {
     "Atomics": "readonly",
@@ -326,7 +320,6 @@ module.exports = {
     "fp/no-throw": "off",
     "fp/no-unused-expression": "warn",
     "fp/no-valueof-field": "error",
-    "no-var": "error",
-    "react/display-name": "off"
+    "no-var": "error"
   }
 }

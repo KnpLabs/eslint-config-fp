@@ -10,10 +10,10 @@ Install the dependency with yarn or npm:
 
 ```sh
 # with yarn
-$ yarn add eslint-config-knplabs-fp
+$ yarn add eslint eslint-config-knplabs-fp --dev
 
 # with npm
-$ npm i --dev eslint-config-knplabs-fp
+$ npm i --dev eslint eslint-config-knplabs-fp
 ```
 
 ## Configuration
