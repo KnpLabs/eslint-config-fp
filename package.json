@@ -1,8 +1,10 @@
 {
   "name": "eslint-config-knplabs-fp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "https://github.com/KnpLabs/eslint-config-fp",
+  "repository": "github:KnpLabs/eslint-config-fp.git",
   "scripts": {
     "test": "eslint -c index.js test.js"
   },
