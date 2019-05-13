@@ -1,0 +1,16 @@
+{
+  "name": "@knplabs/eslint-config-fp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint -c index.js test.js"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-fp": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint-watch": "^5.0.1"
+  }
+}
