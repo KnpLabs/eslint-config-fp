@@ -1,5 +1,5 @@
 {
-  "name": "@knplabs/eslint-config-fp",
+  "name": "eslint-config-knplabs-fp",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",

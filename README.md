@@ -10,10 +10,10 @@ Install the dependency with yarn or npm:
 
 ```sh
 # with yarn
-$ yarn add @knplabs/eslint-config-fp
+$ yarn add eslint-config-knplabs-fp
 
 # with npm
-$ npm i --dev @knplabs/eslint-config-fp
+$ npm i --dev eslint-config-knplabs-fp
 ```
 
 ## Configuration
@@ -22,7 +22,7 @@ In your eslint configuration add the plugin at your root level:
 
 ```json
 {
-  "extends": "@knplabs/eslint-config-fp"
+  "extends": "eslint-config-knplabs-fp"
 }
 ```
 
