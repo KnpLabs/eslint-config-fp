@@ -18,9 +18,9 @@ module.exports = {
   },
   "rules": {
     "accessor-pairs": "error",
-    "array-bracket-newline": "error",
+    "array-bracket-newline": "warn",
     "array-bracket-spacing": [
-      "error",
+      "warn",
       "always"
     ],
     "array-callback-return": "error",
@@ -241,9 +241,9 @@ module.exports = {
     "no-whitespace-before-property": "error",
     "no-with": "error",
     "nonblock-statement-body-position": "error",
-    "object-curly-newline": "error",
+    "object-curly-newline": "warn",
     "object-curly-spacing": [
-      "error",
+      "warn",
       "always"
     ],
     "object-shorthand": "error",
