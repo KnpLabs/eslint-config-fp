@@ -104,7 +104,8 @@ module.exports = {
         "ObjectExpression": 1,
         "ImportDeclaration": 1,
         "flatTernaryExpressions": false,
-        "ignoreComments": false
+        "ignoreComments": false,
+        "ignoredNodes": ["TemplateLiteral > *"]
       }
     ],
     "indent-legacy": "off",
